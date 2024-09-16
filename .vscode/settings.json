@@ -1,0 +1,17 @@
+{
+    "workbench.colorCustomizations": {
+        "editor.selectionHighlightBorder": "#f4f4f456",
+        "editor.wordHighlightBorder": "#f4f4f456",
+        "editor.lineHighlightBorder": "#f4f4f456",
+        "editor.findMatchHighlightBorder": "#f4f4f456"
+    },
+
+    "cmake.setBuildTypeOnMultiConfig": true,
+    "cmake.options.statusBarVisibility": "visible",
+    "cmake.buildDirectory": "${workspaceFolder}/build",
+    "cmake.configureArgs": [
+        "-DCMAKE_EXPORT_COMPILE_COMMANDS=ON",
+        "-DCMAKE_TESTING_ENABLE=ON"
+    ],
+    "cmake.configureOnOpen": true,
+}
